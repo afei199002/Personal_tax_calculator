@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://172.105.242.199:3306/tax?characterEncoding=UTF-8
+    username: wqf_2019
+    password: ehsy@2019

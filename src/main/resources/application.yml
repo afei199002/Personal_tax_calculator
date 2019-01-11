@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat, wall, log4j
+
+ # MyBatis
+mybatis:
+        mapperLocations: classpath:/mappers/*.xml
+        configuration:
+          log-prefix: dao.
+          cache-enabled: true
+          use-generated-keys: true
+          default-executor-type: reuse
+server:
+  port: 8080
+
+
