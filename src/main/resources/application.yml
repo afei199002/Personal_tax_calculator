@@ -4,7 +4,7 @@ spring:
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
     maxActive: 20
     initialSize: 1
@@ -15,7 +15,7 @@ spring:
 
  # MyBatis
 mybatis:
-        mapperLocations: classpath:/mappers/*.xml
+        mapper-locations: classpath:/mappers/*.xml
         configuration:
           log-prefix: dao.
           cache-enabled: true
