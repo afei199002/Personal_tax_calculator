@@ -1,4 +1,4 @@
-package com.wqf.personaltaxcalculator.dao;
+package com.ehsy.personaltaxcalculator.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;

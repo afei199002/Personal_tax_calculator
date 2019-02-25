@@ -1,4 +1,4 @@
-package com.wqf.personaltaxcalculator.controller;
+package com.ehsy.personaltaxcalculator.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

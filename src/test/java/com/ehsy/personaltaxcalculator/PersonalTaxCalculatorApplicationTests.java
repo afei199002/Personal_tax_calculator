@@ -1,4 +1,4 @@
-package com.wqf.personaltaxcalculator;
+package com.ehsy.personaltaxcalculator;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
